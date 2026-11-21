@@ -15,9 +15,9 @@ admin_cidr = "5.31.189.46/32"
 # always allowed). E.g. a Prometheus server outside this VPC: ["198.51.100.7/32"]
 monitoring_cidrs = []
 
-mysql_repo_url    = "https://github.com/ShivaKrishna44/expense-mysql-v1.git"
-backend_repo_url  = "https://github.com/ShivaKrishna44/expense-backend-v1.git"
-frontend_repo_url = "https://github.com/ShivaKrishna44/expense-frontend-v1.git"
+mysql_repo_url    = "https://github.com/ShivaKrishna44/expense-mysql-v1-main.git"
+backend_repo_url  = "https://github.com/ShivaKrishna44/expense-backend-v1-main.git"
+frontend_repo_url = "https://github.com/ShivaKrishna44/expense-frontend-v1-main.git"
 
 
 # Git branch to deploy.

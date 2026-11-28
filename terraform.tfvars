@@ -9,11 +9,15 @@ domain_name = "vosukula.online"
 
 # Your public IP, /32. Re-check if your IP changes:
 #   curl -s https://checkip.amazonaws.com
-admin_cidr = "49.204.25.126/32"
+admin_cidr = "49.204.24.94/32"
+
 
 # Extra CIDRs that may scrape the exporter ports (admin_cidr and the VPC are
 # always allowed). E.g. a Prometheus server outside this VPC: ["198.51.100.7/32"]
-monitoring_cidrs = []
+monitoring_cidrs = ["100.58.121.68/32"]
+
+
+#monitoring_cidrs = []
 
 mysql_repo_url    = "https://github.com/ShivaKrishna44/expense-mysql-v1-main.git"
 backend_repo_url  = "https://github.com/ShivaKrishna44/expense-backend-v1-main.git"
